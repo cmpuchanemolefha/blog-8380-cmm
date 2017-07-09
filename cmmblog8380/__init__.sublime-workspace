@@ -1,0 +1,365 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"I",
+				"Input"
+			],
+			[
+				"notification",
+				"notification_message"
+			],
+			[
+				"no",
+				"notification_subject"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"acti",
+				"activity_id"
+			],
+			[
+				"cancer",
+				"cancer_type_id"
+			],
+			[
+				"can",
+				"Cancer_Type"
+			],
+			[
+				"cancert",
+				"cancer_type_id"
+			],
+			[
+				"Act",
+				"ActivityType"
+			],
+			[
+				"City",
+				"cubrid_field_type"
+			],
+			[
+				"del",
+				"Delete"
+			],
+			[
+				"location",
+				"Location"
+			],
+			[
+				"Location",
+				"location"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/python/assign1p1/cmmblog8380/settings.py",
+		"/C/Users/Chanda/Downloads/5BLI8DGP3E.txt",
+		"/C/python/blogger/mysite/mysite/settings.py",
+		"/C/python/blogger/mysite/blog/models.py",
+		"/C/python/blogger/mysite/blog/admin.py",
+		"/C/Users/Chanda/Desktop/Summer2017/ISQA8380/Files/class_scripts2/product_viewer.py",
+		"/C/Users/Chanda/Desktop/Summer2017/ISQA8410/Assign 1/assign1.sql",
+		"/C/Users/Chanda/Desktop/Summer2017/ISQA8410/Assign 4/Assign4_v1.0.ddl",
+		"/C/Users/Chanda/Desktop/Summer2017/ISQA8410/Assign 3/Submission/Assign3_Insertion.sql",
+		"/C/Users/Chanda/Desktop/Summer2017/ISQA8410/Lectures/SQL Statements/2017-05-17 SQL.sql",
+		"/C/wamp64/www/necaresys/resources/views/common/nav.blade.php",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/Assign5_testscripts_cjava.java",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/Assign5_testscripts_ide_v1.0.2",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/Assign5_testscripts_fjava.java",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/Assign5_tests_scripts_v0.1",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/Assign5_cmm_testscripts_v0.2",
+		"/C/wamp64/www/necaresys/resources/views/activitydetails/involvement.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/activitydetails/status.blade.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/ActivitydetailController.php",
+		"/C/wamp64/www/necaresys/resources/views/notifications/show.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/notifications/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/notifications/index.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/notifications/edit.blade.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_04_18_223133_create_notifications_table.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/VolunteerScheduleController.php",
+		"/C/wamp64/www/necaresys/app/Notification.php",
+		"/C/wamp64/www/necaresys/app/Activity.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/NotificationController.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/ActivityController.php",
+		"/C/wamp64/www/necaresys/app/VolunteerSchedule.php",
+		"/C/wamp64/www/necaresys/app/Volunteer.php",
+		"/C/wamp64/www/necaresys/vendor/laravel/framework/src/Illuminate/Support/Facades/Input.php",
+		"/C/wamp64/www/necaresys/vendor/symfony/console/Input/Input.php",
+		"/C/wamp64/www/necaresys/resources/views/auth/emails/password.blade.php",
+		"/C/wamp64/www/necaresys/app/Http/routes.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_04_22_210724_drop_column_from_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_04_22_205214_add_column_to_table.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteerschedules/show.blade.php",
+		"/C/wamp64/www/necaresys/database/seeds/NotificationPermissionTableSeeder.php",
+		"/C/wamp64/www/necaresys/config/app.php",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/manage_volunteer_schedule_fjava.java",
+		"/C/Users/Chanda/Documents/ISQA8210/eclipse_workspace/Assign4_Tests/manage_volunteer_schedule.html",
+		"/C/wamp64/www/necaresys/resources/views/activities/index.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/activities/show.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/activities/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/activities/edit.blade.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_31_005556_create_victims_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_31_006000_create_volunteerschedules_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_31_005555_create_volunteers_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_04_04_100411_create_activities_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_04_04_225306_create_activitydetails_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_14_005453_create_locations_table.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_02_23_034036_entrust_setup_tables.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteerschedules/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/locations/edit.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteerschedules/edit.blade.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_14_005454_create_employees_table.php",
+		"/C/wamp64/www/necaresys/resources/views/activitydetails/index.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteerschedules/index.blade.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_01_21_204127_create_posts_table.php",
+		"/C/wamp64/www/necaresys/resources/views/roles/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/roles/edit.blade.php",
+		"/C/wamp64/www/efscmm/resources/views/stocks/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/victims/edit.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteers/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/victims/create.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteers/edit.blade.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/VolunteerController.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/VictimController.php",
+		"/C/wamp64/www/necaresys/app/Cancer_Type.php",
+		"/C/wamp64/www/necaresys/resources/views/volunteers/show.blade.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_14_005458_create_volunteers_table.php",
+		"/C/wamp64/www/necaresys/resources/views/victims/index.blade.php",
+		"/C/wamp64/www/necaresys/resources/views/victims/show.blade.php",
+		"/C/wamp64/www/necaresys/app/Employee.php",
+		"/C/wamp64/www/necaresys/app/Http/Controllers/Cancer_TypeController.php",
+		"/C/wamp64/www/necaresys/database/seeds/VolVicPermissionTableSeeder.php",
+		"/C/wamp64/www/necaresys/database/migrations/2017_03_14_005500_create_victims_table.php",
+		"/C/Users/Chanda/Desktop/DatabaseSeeder.php",
+		"/C/Users/Chanda/Desktop/UsersRolesPermissions.php",
+		"/C/wamp64/www/necare/resources/views/locations/show.blade.php",
+		"/C/wamp64/www/necare/resources/views/common/nav.blade.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/LocationController.php",
+		"/C/wamp64/www/necare/resources/views/employees/create.blade.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/EmployeeController.php",
+		"/C/wamp64/www/necare/app/Location.php",
+		"/C/wamp64/www/necare/app/Http/routes.php",
+		"/C/wamp64/www/necare/resources/views/activitytypes/edit.blade.php",
+		"/C/wamp64/www/necare/resources/views/activitytypes/index.blade.php",
+		"/C/wamp64/www/necare/app/ActivityType.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/ActivityTypeController.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005455_create_activitytypes_table.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005453_create_locations_table.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005500_create_victims_table.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005458_create_volunteers_table.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005457_create_employees_table.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_14_005455_create_activityTypes_table.php",
+		"/C/wamp64/www/necare/resources/views/cancer_types/edit.blade.php",
+		"/C/wamp64/www/necare/app/Cancer_Type.php",
+		"/C/wamp64/www/necare/app/CancerType.php",
+		"/C/wamp64/www/necare/resources/views/roles/edit.blade.php",
+		"/C/wamp64/www/necare/resources/views/posts/index.blade.php",
+		"/C/wamp64/www/necare/resources/views/cancer_types/index.blade.php",
+		"/C/wamp64/www/necare/resources/views/layouts/app.blade.php",
+		"/C/Users/Chanda/Desktop/Version Control necare System/UsersRolesPermissions.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/Auth/AuthController.php",
+		"/C/wamp64/www/necare/public/assets/css/style.css",
+		"/C/wamp64/www/necare/config/mail.php",
+		"/C/wamp64/www/necare/.env",
+		"/C/wamp64/www/necare/app/Http/Controllers/Controller.php",
+		"/C/wamp64/www/necare/resources/views/cancer_types/show.blade.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/Cancer_TypeController.php",
+		"/C/wamp64/www/necare/resources/views/cancer_types/create.blade.php",
+		"/C/wamp64/www/blog/database/migrations/2017_01_21_204127_create_posts_table.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/RoleController.php",
+		"/C/wamp64/www/necare/app/Http/Controllers/UserController.php",
+		"/C/wamp64/www/necare/app/Permission.php",
+		"/C/wamp64/www/necare/database/seeds/RoleTableSeeder.php",
+		"/C/wamp64/www/necare/database/seeds/PermissionTableSeeder.php",
+		"/C/wamp64/www/necare/app/Role.php",
+		"/C/wamp64/www/necare/database/seeds/DatabaseSeeder.php",
+		"/C/wamp64/www/necare/database/migrations/2017_03_09_221008_create_cancer_types_table.php",
+		"/C/wamp64/www/necare_sys/.env",
+		"/C/wamp64/www/necare/app/Models/Role.php"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"for each",
+			"state",
+			"CASE",
+			"started",
+			"volunteersched",
+			"volunteersch",
+			"volunteersc",
+			"user",
+			"emplo",
+			"get",
+			"activi",
+			"cost",
+			"city",
+			"date",
+			"volunter",
+			"volunteer",
+			"employee",
+			"cancer",
+			"part",
+			"activity_type",
+			"cancer_type",
+			"reports.admin",
+			"crea"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"volunteer",
+			"victim"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 555.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

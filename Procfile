@@ -1,0 +1,1 @@
+web: gunicorn cmmblog8380.wsgi --log-file -
