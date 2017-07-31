@@ -16,7 +16,8 @@ from watson_developer_cloud import LanguageTranslatorV2 as LanguageTranslator
 
 
 def post_list(request):
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
+    #posts = posts.order_by('published_date').latest('published_date')
     tone_analyzer = ToneAnalyzerV3(
         version='2016-05-19',
         username='8ce332c8-2bc5-47f8-86fd-5b8c0b6b110d',
