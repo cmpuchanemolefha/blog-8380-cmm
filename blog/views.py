@@ -1,35 +1,61 @@
 """from django.shortcuts import render
 # Create your views here.
 """
-#added so that one can go to other pages/url upon completion of a transaction of interest
+# added so that one can go to other pages/url upon completion of a transaction of interest
 
-from django.shortcuts import redirect
-#for 404 error handling I added the following code
+# Assign 3, replaced as below
 from django.shortcuts import render, get_object_or_404
-
-
-#code below was added by CMM on 6 Jul 2017
-
 from django.utils import timezone
 from .models import Post
-
-#for forms I added the following code
 from .forms import PostForm
+from django.shortcuts import redirect
+import json
+from watson_developer_cloud import ToneAnalyzerV3
+from watson_developer_cloud import LanguageTranslatorV2 as LanguageTranslator
+
 
 
 def post_list(request):
-#listing posts ordered by date they were published on
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'blog/post_list.html', {'posts': posts})
+    tone_analyzer = ToneAnalyzerV3(
+        version='2016-05-19',
+        username='8ce332c8-2bc5-47f8-86fd-5b8c0b6b110d',
+        password='qGTZflCp3PH3'
+    )
 
+    language_translator = LanguageTranslator(
+        url='https://gateway.watsonplatform.net/language-translator/api',
+        username='24c1d1a6-c3e2-4592-9c72-a6ef776049ea',
+        password='68QWYP1wh5xo'
+    )
+
+    #print(json.dumps(translation, indent=2, ensure_ascii=False))
+
+    for post in posts:
+        data = json.dumps(tone_analyzer.tone(text=post.text), indent=1)  # converting to string and storing in the data
+        j = json.loads(data);
+        post.info = j['document_tone']['tone_categories'][0]['tones']
+        # post.info = json.dumps(post.info);
+        post.angerScore = post.info[0]['score']
+        post.disgustScore = post.info[1]['score']
+        post.fearScore = post.info[2]['score']
+        post.joyScore = post.info[3]['score']
+        post.sadScore = post.info[4]['score']
+        # print(post.info[0]['tone_name'])
+        translation = language_translator.translate(
+            text=post.text,
+            source='en',
+            target='es')
+        post.translatedText = json.dumps(translation, indent=2, ensure_ascii=False)
+    return render(request, 'blog/post_list.html', {'posts': posts})
 
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    # Post.objects.get(pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
 
 
-#for a capture screen
 def post_new(request):
     if request.method == "POST":
         form = PostForm(request.POST)
@@ -42,6 +68,7 @@ def post_new(request):
     else:
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
+
 
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
