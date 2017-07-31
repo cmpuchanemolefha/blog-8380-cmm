@@ -48,6 +48,11 @@ def post_list(request):
             source='en',
             target='es')
         post.translatedText = json.dumps(translation, indent=2, ensure_ascii=False)
+        translation = language_translator.translate(
+            text=post.text,
+            source='en',
+            target='it')
+        post.translatedSecondText = json.dumps(translation, indent=2, ensure_ascii=False)
     return render(request, 'blog/post_list.html', {'posts': posts})
 
 
